@@ -291,16 +291,7 @@ section{
     max-width: 350px;
     height: auto;
 }
-.liquid-shape{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: -30%;
-}
-.liquid-shape:nth-child(2){
-    filter: blur(50px);
-}
+
 
 /* ----------------------About Section------------------- */
 .about{
@@ -309,14 +300,6 @@ section{
     align-items: center;
     grid-gap:2em;
     background: var(--secon-bg-color);
-}
-.about .img-about{
-    text-align: center;
-    position: relative;
-}
-.about .img-about img{
-    max-width: 500px;
-    height: auto;
 }
 .about-content span{
     color: #fdfdfd;
@@ -338,7 +321,11 @@ section{
 .about-content p{
     color: #fdfdfd;
     font-weight: 300;
+    font-size: 18px;
     margin-bottom: 1.5rem;
+    line-height: 35px;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 .info-about1,
 .info-about2,
@@ -515,6 +502,10 @@ section{
     width: 75%;
     animation: bootstrap 5s;
 }
+.skill-bar .bar .PHP{
+    width: 65%;
+    animation: php 5s;
+}
 @keyframes html{
       0%{
         width: 0%;
@@ -540,6 +531,14 @@ section{
     }
 }
 @keyframes bootstrap{
+    0%{
+      width: 0%;
+    } 
+    100%{
+      width: 75%;
+    }
+}
+@keyframes php{
     0%{
       width: 0%;
     } 
