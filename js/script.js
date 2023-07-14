@@ -75,8 +75,9 @@ function activeMenu(){
         menuLi[len].classList.add("active");
     }
 }
-activeMenu();
-window.addEventListener("scroll", activeMenu);
+// activeMenu();
+// window.addEventListener("scroll", activeMenu);
+
 
 //sticky menu
 const header = document.querySelector("header");

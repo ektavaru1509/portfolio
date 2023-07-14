@@ -300,6 +300,7 @@ section{
     align-items: center;
     grid-gap:2em;
     background: var(--secon-bg-color);
+    height: 600px;
 }
 .about-content span{
     color: #fdfdfd;
